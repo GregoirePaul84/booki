@@ -8,5 +8,10 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url();
+    src: url('../Fonts/Raleway-Italic-VariableFont_wght.ttf');
+    src: url('../Fonts/Raleway-VariableFont_wght.ttf');
+}
+
+h1, h2, h3, p {
+    font-family: Raleway;
 }
