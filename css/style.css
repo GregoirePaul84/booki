@@ -1,0 +1,12 @@
+/* Sélecteur universel */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Polices */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url();
+}
