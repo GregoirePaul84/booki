@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
 }
 
 /* Header */
@@ -35,14 +35,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 100px;
+    height: 90px;
 }
 
         /* Logo */
 
 #logo {
     border: 1px solid black;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 60px;
     width: 110px;
 }
@@ -51,12 +51,13 @@ nav {
 
 #nav_container {
     display: flex;
+    height: 100%;
 }
 
 #hebergements {
     border: 1px solid blue;
-    width: 150px;
-    height: 100px;
+    width: 140px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,8 +65,8 @@ nav {
 
 #activités {
     border: 1px solid green;
-    width: 150px;
-    height: 100px;
+    width: 140px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,22 +93,58 @@ nav {
 
     /* Section 1 */
 
+        /* Heading */
+
 #section1 {
     border: 1px solid red;
+    height: 200px;
 }
 
 #section1 p {
     border: 1px solid black;
+    font-size: 15px;
 }
 
 h1 {
     border: 1px solid black;
     font-size: 19px;
-    width: 50%;
 }
 
-header p {
-    font-size: 15px;
+        /* Search bar */
+
+#search {
+    display: flex;
+}
+
+#search i {
+    background-color: #F2F2F2;
+    padding: 12px 15px;
+    margin-left: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+#search input {
+    padding: 7px 25px;
+    border: 1px solid #F2F2F2;
+}
+
+#search input::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+#search button {
+    padding: 0 15px;
+    background-color: #0065FC;
+    color: #F2F2F2;
+    border-radius: 0 13px 13px 0;
+    border: none;
+    font-weight: bold;
+}
+
+#search button a {
+    color: inherit;
+    text-decoration: none;
 }
 
     /* Header - Responsive */
@@ -131,10 +168,14 @@ header p {
 
     #hebergements {
         border-bottom: 3px solid rgb(151, 159, 167);
+        flex-basis: 50%;
+        height: 40px;
     }
 
     #activités {
         border-bottom: 3px solid rgb(151, 159, 167);
+        flex-basis: 50%;
+        height: 40px;
     }
 
     #hebergements:hover {
