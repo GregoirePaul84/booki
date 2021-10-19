@@ -24,6 +24,11 @@ body {
 
 /* Header */
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     border:  1px solid blue;
     display: flex;
@@ -33,7 +38,7 @@ nav {
     height: 100px;
 }
 
-    /* Header - Logo */
+        /* Logo */
 
 #logo {
     border: 1px solid black;
@@ -42,7 +47,7 @@ nav {
     width: 110px;
 }
 
-    /* Header - Barre de navigation */
+        /* Barre de navigation */
 
 #nav_container {
     display: flex;
@@ -78,10 +83,31 @@ nav {
     list-style-type: none;
     color: #000000;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .a_decoration:hover {
     color: #0065FC;
+}
+
+    /* Section 1 */
+
+#section1 {
+    border: 1px solid red;
+}
+
+#section1 p {
+    border: 1px solid black;
+}
+
+h1 {
+    border: 1px solid black;
+    font-size: 19px;
+    width: 50%;
+}
+
+header p {
+    font-size: 15px;
 }
 
     /* Header - Responsive */
@@ -90,6 +116,7 @@ nav {
 
     nav {
         justify-content: center;
+        height: max-content;
     }
 
     #logo {
@@ -103,11 +130,11 @@ nav {
     }
 
     #hebergements {
-        border-bottom: 3px solid lightslategray;
+        border-bottom: 3px solid rgb(151, 159, 167);
     }
 
     #activités {
-        border-bottom: 3px solid lightslategray;
+        border-bottom: 3px solid rgb(151, 159, 167);
     }
 
     #hebergements:hover {
