@@ -392,7 +392,7 @@ border-radius: 20px;
 
     #logo {
         justify-content: center;
-        margin-left: auto;
+        margin: 20px 0;
     }
     
     #nav_container {
