@@ -412,12 +412,24 @@ border-radius: 20px;
         height: 40px;
     }
 
-    #hebergements:hover {
+    #hebergements_header {
+        flex-basis: 50%;
+        height: 20px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    
+    #activités_header {
+        flex-basis: 50%;
+        height: 20px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    #hebergements_header:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
     
-    #activités:hover {
+    #activités_header:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
