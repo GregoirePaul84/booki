@@ -55,7 +55,7 @@ nav {
     height: 100%;
 }
 
-#hebergements {
+#hebergements_header {
     border: 1px solid blue;
     width: 140px;
     height: 100%;
@@ -64,7 +64,7 @@ nav {
     justify-content: center;
 }
 
-#activités {
+#activités_header {
     border: 1px solid green;
     width: 140px;
     height: 100%;
@@ -73,11 +73,11 @@ nav {
     justify-content: center;
 }
 
-#hebergements:hover {
+#hebergements_header:hover {
     border-top: 3px solid #0065FC;
 }
 
-#activités:hover {
+#activités_header:hover {
     border-top: 3px solid #0065FC;
 }
 
@@ -98,7 +98,7 @@ nav {
 
 #section1 {
     border: 1px solid red;
-    height: 300px;
+    height: 260px;
 }
 
 #section1 p {
@@ -219,6 +219,7 @@ nav {
 
 .filter_text {
      font-weight: bold;
+     padding-right: 8px;
 }
 
         /* Résultats de recherche */
@@ -228,10 +229,14 @@ nav {
     display: flex;
 }
 
+#icon_info {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
 #information p {
     width: 75%;
     text-align: justify;
-    margin-top: 6px;
     font-size: 15px;
 }
 
@@ -240,14 +245,95 @@ nav {
 }
 
 .fas.fa-info {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #0065FC;
     border: 1px solid #c7c5c5;
     border-radius: 50%;
+}
+
+    /* Section 2 */
+
+#section2 {
+    display: flex;
+    height: 500px;
+    border: 1px solid teal;
+}
+
+#hebergements_results {
+    border: 1px solid green;
+    margin-right: 40px;
+    background-color: #F2F2F2;
+    flex: 1;
+}
+
+#bloc2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#bloc3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#populaires_results {
+    border: 1px solid coral;
+    background-color: #F2F2F2;
+}
+
+.h2_results {
+    font-size: 17px;
+    margin: 30px 25px;
+    border: 1px solid;
+}
+
+.hebergements_description {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 210px;
+    margin-bottom: 20px;
+}
+
+.hebergements_pictures {
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+    border-radius: 20px 20px 0 0;
+}
+
+.h3_results {
+    margin: 5px 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.p_results {
+    margin: 5px 13px;
+    font-size: 13px;
+}
+
+.price_bold {
+    font-weight: bold;
+}
+
+.stars_results {
+    margin: 5px 13px 7px 13px;
+    font-size: 11px;
+}
+
+.stars_blue {
+    color: #0065FC;
+}
+
+.stars_gray {
+    color: #c7c5c5;
 }
 
     /* Responsive - Header */
