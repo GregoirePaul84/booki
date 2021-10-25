@@ -56,7 +56,7 @@ nav {
     width: 110px;
 }
 
-    /* Barre de navigation */
+    /* Nav-bar */
 
 #nav_container {
     display: flex;
@@ -282,19 +282,19 @@ nav {
     flex: 1;
 }
 
-#bloc2 {
+#hébergements_first_block {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-#bloc3 {
+#hébergements_second_block {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-#bloc4 p {
+#afficher_plus_block p {
     margin: 10px 40px;
     font-weight: bolder;
     font-size: 15px;
@@ -388,21 +388,21 @@ nav {
     transition: 200ms;
 }
 
-#bloc_titre_flèche {
+#icon_title_block {
     display: flex;
     justify-content: space-between;
 }
 
-#bloc_titre {
+#title_block {
     align-self: flex-start;
 }
 
-#bloc_flèche {
+#icon_block {
     margin: 30px 10px 25px 0;
     height: 22px;
 }
 
-#logo_flèche {
+#icon_populaires {
     border: 1px solid red;
     position: relative;
     bottom: 2px;
@@ -704,7 +704,7 @@ footer {
 
     /* Responsive - Filters */
 
-    #bloc1 {
+    #title_filtres_block {
         align-self: flex-start;
         margin-left: 35px;
     }
@@ -768,8 +768,9 @@ footer {
         border-radius: 0;
     }
 
-    #bloc1{
+    #title_hébergements_block {
         margin: 0;
+        align-self: flex-start;
     }
 
     .h2_results {
@@ -777,11 +778,11 @@ footer {
         align-self: flex-start;
     }
 
-    #bloc2, #bloc3 {
+    #hébergements_first_block, #hébergements_second_block {
         flex-direction: column;
     }
 
-    #bloc4 {
+    #afficher_plus_block {
         align-self: flex-start;
     }
 
@@ -801,18 +802,13 @@ footer {
         width: 50%;
     }
 
-    #bloc_titre_flèche {
+    #icon_title_block {
         width: 100%;
     }
     
-    #bloc_flèche {
+    #icon_block {
         margin: 30px 10px 25px 0;
         height: 22px;
-    }
-
-    #logo_flèche {
-        position: relative;
-        top: 2px;
     }
 
 /* Responsive - Section 3 - Activités à Marseille */
