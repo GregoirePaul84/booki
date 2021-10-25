@@ -11,8 +11,8 @@ img {
 
 @font-face {
     font-family: 'Raleway';
-    src: url('../Fonts/Raleway-Italic-VariableFont_wght.ttf'), 
-         url('../Fonts/Raleway-VariableFont_wght.ttf');
+    src: url('../Fonts/Raleway-VariableFont_wght.ttf'); 
+         
 }
 
 #page_block {
@@ -48,7 +48,7 @@ nav {
     height: 90px;
 }
 
-        /* Logo */
+    /* Logo */
 
 #logo {
     border: 1px solid black;
@@ -57,7 +57,7 @@ nav {
     width: 110px;
 }
 
-        /* Barre de navigation */
+    /* Barre de navigation */
 
 #nav_container {
     display: flex;
@@ -101,9 +101,9 @@ nav {
     color: #0065FC;
 }
 
-    /* Section 1 */
+/* Main title - Search bar - Filters - Info */
 
-        /* Heading */
+    /* Main title */
 
 #section1 {
     border: 1px solid red;
@@ -123,7 +123,7 @@ nav {
     margin-bottom: 7px;
 }
 
-        /* Search bar */
+    /* Search bar */
 
 #search {
     display: flex;
@@ -168,7 +168,7 @@ nav {
     display: none;
 }
 
-        /* Filtres */
+    /* Filters */
 
 #filters {
     display: flex;
@@ -231,7 +231,7 @@ nav {
      padding-right: 8px;
 }
 
-        /* Résultats de recherche */
+    /* Info */
 
 #information {
     margin: 10px 0;
@@ -264,7 +264,7 @@ nav {
     border-radius: 50%;
 }
 
-    /* Section 2 */
+/* Section 2 - Hébergements à Marseille, Hébergements populaires */
 
 #section2 {
     display: flex;
@@ -273,7 +273,7 @@ nav {
     border: 1px solid teal;
     margin-bottom: 15px;
 }
-        /* Hébergements */
+    /* Hébergements à Marseille */
 
 #hebergements_results {
     border: 1px solid green;
@@ -357,7 +357,7 @@ nav {
     transition: 200ms;
 }
 
-        /* Hébergements populaires */
+    /* Hébergements populaires */
 
 #populaires_results {
     display: flex;
@@ -393,7 +393,6 @@ nav {
 }
 
 #bloc_flèche {
-    margin-right: 10px;
     margin: 30px 10px 25px 0;
     height: 22px;
 }
@@ -401,7 +400,7 @@ nav {
 #logo_flèche {
     border: 1px solid red;
     position: relative;
-    top: 2px;
+    bottom: 2px;
 }
 
 .populaires_pictures {
@@ -417,11 +416,12 @@ nav {
     justify-content: space-around;
 }
 
-/* Section 3 */
+/* Section 3 - Activités à Marseille */
 
 #section3 {
     height: auto;
     border: 1px solid red;
+    margin-bottom: 40px;
 }
 
 #section3 img {
@@ -459,7 +459,6 @@ nav {
     width: 100%;
     height: 310px;
     border-radius: 20px 20px 0 0;
-    padding: 5px;
 }
 
 #pomègues_frioul {
@@ -484,7 +483,6 @@ nav {
 #img_pomègues {
     width: 100%;
     height: 135px;
-    padding: 5px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -503,7 +501,6 @@ nav {
 #img_frioul {
     width: 100%;
     height: 115px;
-    padding: 5px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -523,7 +520,6 @@ nav {
     width: 100%;
     height: 310px;
     border-radius: 20px 20px 0 0;
-    padding: 5px;
 }
 
 #garde_longchamp {
@@ -544,7 +540,6 @@ nav {
 }
 
 #img_garde {
-    padding: 5px;
     width: 100%;
     height: 125px;
     border-radius: 20px 20px 0 0;
@@ -563,7 +558,6 @@ nav {
 }
 
 #img_longchamp {
-    padding: 5px;
     height: 125px;
     width: 100%;
     border-radius: 20px 20px 0 0;
@@ -581,7 +575,36 @@ nav {
     height: 16px;
 }
 
-    /* Responsive - Header */
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    border: 1px solid;
+    background-color: #F2F2F2;
+    height: 150px;
+}
+
+.footer_columns {
+    border: 1px solid green;
+    width: 200px;
+}
+
+.h3_footer {
+    font-size: 15px;
+}
+
+.p_footer {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.p_footer:hover {
+    color: #0065FC;
+}
+
+/* Responsive - Header */
 
 @media screen and (max-width: 768px) {
 
@@ -634,13 +657,15 @@ nav {
         border-bottom: 3px solid #0065FC;
     }
 
-    /* Responsive - Section 1 */
+/* Responsive - Section 1 - Main title, Search bar, Filters, Info */
 
     #section1 {
         border: 1px solid red;
         height: fit-content;
         text-align: center;
     }
+
+    /* Responsive - Main title */
 
     #section1 h1 {
         border: 1px solid black;
@@ -650,6 +675,8 @@ nav {
         margin-left: 40px;
         margin-right: 40px;
     }
+
+    /* Responsive - Search bar */
 
     #search span {
         display: none;
@@ -668,7 +695,7 @@ nav {
         border-radius: 13px;
     }
 
-    /* Responsive - Liste */
+    /* Responsive - Filters */
 
     #bloc1 {
         align-self: flex-start;
@@ -688,12 +715,14 @@ nav {
         margin-bottom: 11px;
     }
 
-    /* Responsive - Section 2 */
+/* Responsive - Section 2 - Hébergements à Marseille, Hébergements populaires */
 
     #section2{
         display: flex;
         flex-direction: column;
     }
+
+    /* Responsive - Hébergements à Marseille */
 
     #hebergements_results {
         display: flex;
@@ -707,7 +736,7 @@ nav {
     }
 
     .hebergements_description {
-        width: 320px;
+        width: 350px;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -717,6 +746,8 @@ nav {
         height: 62%;
         width: 100%;
     }
+
+    /* Responsive - Hébergements populaires */
 
     #populaires_results {
         order: 0;
@@ -751,7 +782,7 @@ nav {
 
     .populaires_description {
         margin: 0 10px 20px 10px;
-        width: 320px;
+        width: 350px;
         height: 120px;
     }
 
@@ -764,12 +795,18 @@ nav {
     }
     
     #bloc_flèche {
-        margin-right: 10px;
         margin: 30px 10px 25px 0;
         height: 22px;
     }
 
-    /* Responsive - Section 3 */
+    #logo_flèche {
+        position: relative;
+        top: 2px;
+    }
+
+/* Responsive - Section 3 - Activités à Marseille */
+
+    /* Responsive - Activités à Marseille */
 
     #activités_marseille_container {
         display: flex;
@@ -778,7 +815,7 @@ nav {
     }
 
     #vieux_port {
-        width: 320px;
+        width: 350px;
         height: 200px;
         margin-bottom: 20px;
     }
@@ -789,13 +826,13 @@ nav {
     }
 
     #pomègues_frioul {
-        width: 320px;
+        width: 350px;
         height: 420px;
         margin-bottom: 20px;
     }
 
     #pomègues {
-        width: 320px;
+        width: 350px;
         height: 200px;
     }
 
@@ -805,7 +842,7 @@ nav {
     }
 
     #frioul {
-        width: 320px;
+        width: 350px;
         height: 200px;
     }
 
@@ -815,7 +852,7 @@ nav {
     }
 
     #calanques {
-        width: 320px;
+        width: 350px;
         height: 200px;
         margin-bottom: 20px;
     }
@@ -826,13 +863,13 @@ nav {
     }
 
     #garde_longchamp {
-        width: 320px;
+        width: 350px;
         height: 420px;
         margin-bottom: 20px;
     }
 
     #garde {
-        width: 320px;
+        width: 350px;
         height: 200px;
     }
 
@@ -842,13 +879,29 @@ nav {
     }
 
     #longchamp {
-        width: 320px;
+        width: 350px;
         height: 200px;
     }
 
     #img_longchamp {
         width: 100%;
         height: 160px;
+    }
+
+    .h2_activités {
+        margin-left: 10px;
+    }
+
+/* Responsive - Footer */
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        height: 430px;
+    }
+
+    .footer_columns {
+        margin-left: 20px;
     }
 
 }
