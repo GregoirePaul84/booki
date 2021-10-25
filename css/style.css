@@ -11,8 +11,7 @@ img {
 
 @font-face {
     font-family: 'Raleway';
-    src: url('../Fonts/Raleway-VariableFont_wght.ttf'); 
-         
+    src: url('../Fonts/Raleway-VariableFont_wght.ttf');        
 }
 
 #page_block {
@@ -301,9 +300,9 @@ nav {
     font-size: 15px;
 }
 
-.h2_results {
+.h2_hébergements_à_marseille {
     font-size: 18px;
-    margin: 25px 0 25px 15px;
+    margin: 25px 0 25px 28px;
     border: 1px solid;
 }
 
@@ -358,6 +357,12 @@ nav {
 }
 
     /* Hébergements populaires */
+
+.h2_hébergements_populaires {
+    font-size: 18px;
+    margin: 25px 0 25px 11px;
+    border: 1px solid;
+}
 
 #populaires_results {
     display: flex;
@@ -430,7 +435,7 @@ nav {
 
     /* Activités à Marseille */
 
-.h2_activités {
+.h2_activités_à_marseille {
     font-size: 18px;
     margin: 25px 0 15px 0;
     border: 1px solid;
@@ -583,16 +588,18 @@ footer {
     gap: 100px;
     border: 1px solid;
     background-color: #F2F2F2;
-    height: 150px;
+    height: 175px;
 }
 
 .footer_columns {
+    margin-top: 20px;
     border: 1px solid green;
     width: 200px;
 }
 
 .h3_footer {
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .p_footer {
@@ -724,6 +731,10 @@ footer {
 
     /* Responsive - Hébergements à Marseille */
 
+    .h2_hébergements_à_marseille {
+        margin-left: 11px;
+    }
+
     #hebergements_results {
         display: flex;
         flex-direction: column;
@@ -807,6 +818,10 @@ footer {
 /* Responsive - Section 3 - Activités à Marseille */
 
     /* Responsive - Activités à Marseille */
+
+    .h2_activités_à_marseille {
+        margin-left: 11px;
+    }
 
     #activités_marseille_container {
         display: flex;
@@ -897,7 +912,7 @@ footer {
     footer {
         flex-direction: column;
         gap: 20px;
-        height: 430px;
+        height: 480px;
     }
 
     .footer_columns {
