@@ -17,8 +17,8 @@ img {
 #page_block {
     display: flex;
     flex-direction: column;
-    max-width: 992px;
-    margin: auto;
+    width: auto;
+    margin: 0 20px;
 }
 
 body {
@@ -39,7 +39,6 @@ header {
 }
 
 nav {
-    border:  1px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +49,6 @@ nav {
     /* Logo */
 
 #logo {
-    border: 1px solid black;
     margin-left: 10px;
     height: 60px;
     width: 110px;
@@ -64,7 +62,7 @@ nav {
 }
 
 #hebergements_header {
-    border: 1px solid blue;
+    border-top: 3px solid transparent;
     width: 140px;
     height: 100%;
     display: flex;
@@ -73,7 +71,7 @@ nav {
 }
 
 #activités_header {
-    border: 1px solid green;
+    border-top: 3px solid transparent;
     width: 140px;
     height: 100%;
     display: flex;
@@ -105,18 +103,15 @@ nav {
     /* Main title */
 
 #section1 {
-    border: 1px solid red;
     min-height: 260px;
 }
 
 #section1 p {
-    border: 1px solid black;
     font-size: 15px;
     margin-top: 0;
 }
 
 #section1 h1 {
-    border: 1px solid black;
     font-size: 19px;
     font-weight: bolder;
     margin-bottom: 7px;
@@ -172,7 +167,6 @@ nav {
 #filters {
     display: flex;
     align-items: center;
-    border: 1px solid blue;
 }
 #filters h2 {
      font-size: 16px;
@@ -282,13 +276,7 @@ nav {
     flex: 1;
 }
 
-#hébergements_first_block {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-#hébergements_second_block {
+#card_block {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -916,5 +904,3 @@ footer {
     }
 
 }
-
-
