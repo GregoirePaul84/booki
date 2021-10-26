@@ -18,7 +18,7 @@ img {
     display: flex;
     flex-direction: column;
     width: auto;
-    margin: 0 20px;
+    margin: 0 80px;
 }
 
 body {
@@ -262,6 +262,7 @@ nav {
 #section2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     min-height: 520px;
     border: 1px solid teal;
     margin-bottom: 15px;
@@ -270,13 +271,12 @@ nav {
 
 #hebergements_results {
     border: 1px solid green;
-    margin-right: 30px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    flex: 1;
+    flex-basis: calc(70% - 40px)
 }
 
-#card_block {
+#hébergements_card_block {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -289,37 +289,43 @@ nav {
 }
 
 .h2_hébergements_à_marseille {
-    font-size: 18px;
+    font-size: 20px;
     margin: 25px 0 25px 28px;
     border: 1px solid;
+    font-weight: bolder;
 }
 
 .hebergements_description {
     background-color: white;
     border-radius: 20px;
-    width: 200px;
-    height: 170px;
-    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 2%;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
     cursor: pointer;
 }
 
+.hébergements_card_img {
+    height: 60%;
+    width: 100%;
+}
+
 .hebergements_pictures {
     width: 100%;
-    height: 100px;
-    padding: 5px;
+    height: 100%;
+    padding: 1%;
     border-radius: 20px 20px 0 0;
 }
 
 .h3_results {
     margin: 0 13px 5px 10px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .p_results {
     margin: 5px 10px;
-    font-size: 12.9px;
+    font-size: 14px;
 }
 
 .price_bold {
@@ -328,7 +334,7 @@ nav {
 
 .stars_results {
     margin: 5px 13px 0px 10px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .stars_blue {
@@ -355,9 +361,16 @@ nav {
 #populaires_results {
     display: flex;
     flex-direction: column;
+    flex-basis: 30%;
     border: 1px solid coral;
     background-color: #F2F2F2;
     border-radius: 20px;
+}
+
+#populaires_card_block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7%;
 }
 
 .populaires_description {
@@ -365,9 +378,9 @@ nav {
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
-    margin: 0 10px 20px 10px;
-    width: 240px;
-    height: 122px;
+    width: 100%;
+    margin-bottom: 8%;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -396,10 +409,15 @@ nav {
     bottom: 2px;
 }
 
+.populaires_img_card {
+    height: 100%;
+    width: 40%;
+}
+
 .populaires_pictures {
     height: 100%;
-    width: 90px;
-    padding: 5px;
+    width: 100%;
+    padding: 2%;
     border-radius: 20px 0 0 20px;
 }
 
@@ -407,6 +425,9 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: 1px solid skyblue;
+    width: 60%;
+    height: 100%;
 }
 
 /* Section 3 - Activités à Marseille */
