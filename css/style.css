@@ -91,7 +91,7 @@ nav {
     list-style-type: none;
     color: #000000;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .a_decoration:hover {
@@ -652,51 +652,35 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+    #page_block {
+        margin: auto;
+    }
+
     nav {
         justify-content: center;
         height: max-content;
     }
 
     #logo {
-        justify-content: center;
         margin: 20px 0;
     }
     
     #nav_container {
         flex-basis: 100%;
-        justify-content: center;
     }
 
-    #hebergements {
-        border-bottom: 3px solid rgb(151, 159, 167);
+    .a_decoration {
         flex-basis: 50%;
-        height: 40px;
     }
 
-    #activités {
-        border-bottom: 3px solid rgb(151, 159, 167);
-        flex-basis: 50%;
-        height: 40px;
-    }
-
-    #hebergements_header {
-        flex-basis: 50%;
-        height: 20px;
-        border-bottom: 3px solid #F2F2F2;
-    }
-    
-    #activités_header {
-        flex-basis: 50%;
-        height: 20px;
-        border-bottom: 3px solid #F2F2F2;
-    }
-
-    #hebergements_header:hover {
+    #hebergements_header, #activités_header {
+        height: 50px;
         border-top: none;
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 3px solid #F2F2F2;
+        width: auto;
     }
-    
-    #activités_header:hover {
+
+    #hebergements_header:hover, #activités_header:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
