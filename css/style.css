@@ -23,7 +23,6 @@ img {
 
 body {
     background-color: #FFFFFF;
-    letter-spacing: -0.3px;
 }
 
 a {
@@ -113,7 +112,7 @@ nav {
 #section1 h1 {
     font-size: 20px;
     font-weight: bolder;
-    margin-bottom: 9px;
+    margin-bottom: 14px;
     margin-top: 10px;
 }
 
@@ -229,7 +228,7 @@ nav {
     /* Info */
 
 #information {
-    margin: 10px 0;
+    margin: 18px 0;
     display: flex;
 }
 
@@ -266,7 +265,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
     /* Hébergements à Marseille */
 
@@ -283,7 +282,7 @@ nav {
 }
 
 #afficher_plus_block p {
-    margin: 10px 2.7%;
+    margin: 10px 0 30px 2.7%;
     font-weight: 700;
     font-size: 16px;
 }
@@ -292,6 +291,7 @@ nav {
     font-size: 19px;
     margin-top: 25px;
     margin-left: 2.7%;
+    margin-bottom: 25px;
     font-weight: 700;
 }
 
@@ -412,7 +412,7 @@ nav {
 
 #icon_block {
     position: absolute;
-    right: 30px;
+    right: 28px;
     top: 28.5px;
 }
 
@@ -456,7 +456,6 @@ nav {
 
 #section3 {
     height: auto;
-    border: 1px solid red;
     margin-bottom: 40px;
 }
 
@@ -468,20 +467,21 @@ nav {
 
 .h2_activités_à_marseille {
     font-size: 18px;
-    margin: 25px 0 15px 0;
-    border: 1px solid;
+    margin: 25px 0;
 }
 
 #activités_marseille_container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 500px;
 }
 
 #vieux_port {
+    width: calc(25% - 30px);
+    height: 100%;
     border-radius: 20px;
-    width: 230px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
 }
 
@@ -493,21 +493,17 @@ nav {
 
 #img_vieux_port {
     width: 100%;
-    height: 310px;
+    height: 450px;
     border-radius: 20px 20px 0 0;
 }
 
-#pomègues_frioul {
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-}
-
 #pomègues {
-    height: 175px;
+    order: 1;
+    width: calc(25% - 30px);
+    height: calc(60% - 30px);
+    margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
-    margin-bottom: 20px;
 }
 
 #pomègues:hover {
@@ -518,12 +514,14 @@ nav {
 
 #img_pomègues {
     width: 100%;
-    height: 135px;
+    height: 220px;
     border-radius: 20px 20px 0 0;
 }
 
 #frioul {
-    height: 155px;
+    order: 2;
+    width: calc(25% - 30px);
+    height: 40%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
 }
@@ -536,12 +534,14 @@ nav {
 
 #img_frioul {
     width: 100%;
-    height: 115px;
+    height: 150px;
     border-radius: 20px 20px 0 0;
 }
 
 #calanques {
-    width: 230px;
+    order: 3;
+    width: calc(25% - 30px);
+    height: 100%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
 }
@@ -554,19 +554,17 @@ nav {
 
 #img_calanques {
     width: 100%;
-    height: 310px;
+    height: 450px;
     border-radius: 20px 20px 0 0;
 }
 
-#garde_longchamp {
-    width: 230px;
-}
-
 #garde {
-    height: 165px;
+    order: 4;
+    width: calc(25% - 30px);
+    height: 40%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #garde:hover {
@@ -577,12 +575,14 @@ nav {
 
 #img_garde {
     width: 100%;
-    height: 125px;
+    height: 150px;
     border-radius: 20px 20px 0 0;
 }
 
 #longchamp {
-    height: 165px;
+    order: 5;
+    width: calc(25% - 30px);
+    height: calc(60% - 30px);
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
 }
@@ -594,7 +594,7 @@ nav {
 }
 
 #img_longchamp {
-    height: 125px;
+    height: 220px;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
@@ -603,28 +603,25 @@ nav {
     font-size: 13.5px;
     font-weight: bold;
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .activités_lieu {
-    width: 228px;
-    height: 16px;
+    width: 100%;
+    height: 30px;
 }
 
 /* Footer */
 
 footer {
     display: flex;
-    justify-content: flex-start;
-    gap: 100px;
-    border: 1px solid;
+    justify-content: space-around;
     background-color: #F2F2F2;
     height: 175px;
 }
 
 .footer_columns {
     margin-top: 20px;
-    border: 1px solid green;
     width: 200px;
 }
 
@@ -747,7 +744,7 @@ footer {
     /* Responsive - Hébergements à Marseille */
 
     .h2_hébergements_à_marseille {
-        margin-left: 11px;
+        margin-left: 20px;
     }
 
     #hebergements_results {
@@ -761,16 +758,25 @@ footer {
         border-radius: 0;
     }
 
+    #hébergements_card_block {
+        margin: 0 20px;
+    }
+
     .hebergements_description {
-        width: 350px;
+        width: 100%;
         height: 200px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: column;
     }
 
     .hebergements_pictures {
-        height: 62%;
+        height: 120px;
         width: 100%;
+    }
+
+    .hébergements_card_content {
+        margin: 0;
     }
 
     /* Responsive - Hébergements populaires */
@@ -788,29 +794,35 @@ footer {
         align-self: flex-start;
     }
 
-    .h2_results {
-        margin: 30px 0 20px 10px;
+    .h2_hébergements_populaires {
+        margin: 30px 0 20px 20px;
         align-self: flex-start;
-    }
-
-    #hébergements_first_block, #hébergements_second_block {
-        flex-direction: column;
     }
 
     #afficher_plus_block {
         align-self: flex-start;
+        width: 100%;
+    }
+
+    #afficher_plus_block p {
+        margin: 10px 20px;
+    }
+
+    #populaires_card_block {
+        margin: 0 20px;
+        max-width: 100%;
     }
 
     .populaires_pictures {
         height: 100%;
-        width: 110px;
+        width: 100%;
         border-radius: 20px 0 0 20px;
     }
 
     .populaires_description {
-        margin: 0 10px 20px 10px;
-        width: 350px;
-        height: 120px;
+        margin-bottom: 5%;
+        width: 100%;
+        min-height: 120px;
     }
 
     .description_column {
@@ -822,8 +834,8 @@ footer {
     }
     
     #icon_block {
-        margin: 30px 10px 25px 0;
-        height: 22px;
+        position: absolute;
+        top: 32.5px;
     }
 
 /* Responsive - Section 3 - Activités à Marseille */
@@ -831,91 +843,85 @@ footer {
     /* Responsive - Activités à Marseille */
 
     .h2_activités_à_marseille {
-        margin-left: 11px;
+        margin-left: 20px;
     }
 
     #activités_marseille_container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: auto;
+        margin: 0 20px;
     }
 
     #vieux_port {
-        width: 350px;
+        width: 100%;
         height: 200px;
         margin-bottom: 20px;
     }
 
     #img_vieux_port {
         width: 100%;
-        height: 160px;
-    }
-
-    #pomègues_frioul {
-        width: 350px;
-        height: 420px;
-        margin-bottom: 20px;
+        height: 150px;
     }
 
     #pomègues {
-        width: 350px;
+        width: 100%;
         height: 200px;
+        margin-bottom: 20px;
     }
 
     #img_pomègues {
         width: 100%;
-        height: 160px;
+        height: 150px;
     }
 
     #frioul {
-        width: 350px;
+        width: 100%;
         height: 200px;
+        margin-bottom: 20px;
     }
 
     #img_frioul {
         width: 100%;
-        height: 160px;
+        height: 150px;
     }
 
     #calanques {
-        width: 350px;
+        width: 100%;
         height: 200px;
         margin-bottom: 20px;
     }
 
     #img_calanques {
         width: 100%;
-        height: 160px;
-    }
-
-    #garde_longchamp {
-        width: 350px;
-        height: 420px;
-        margin-bottom: 20px;
+        height: 150px;
     }
 
     #garde {
-        width: 350px;
+        width: 100%;
         height: 200px;
+        margin-bottom: 20px;
     }
 
     #img_garde {
         width: 100%;
-        height: 160px;
+        height: 150px;
     }
 
     #longchamp {
-        width: 350px;
+        width: 100%;
         height: 200px;
     }
 
     #img_longchamp {
         width: 100%;
-        height: 160px;
+        height: 150px;
     }
 
-    .h2_activités {
-        margin-left: 10px;
+    .h3_activités {
+       margin-top: 13px;
+       font-weight: 700;
     }
 
 /* Responsive - Footer */
@@ -923,11 +929,12 @@ footer {
     footer {
         flex-direction: column;
         gap: 20px;
-        height: 480px;
+        height: 530px;
     }
 
     .footer_columns {
         margin-left: 20px;
+        margin-top: 0;
     }
 
 }
