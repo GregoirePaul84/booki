@@ -29,59 +29,56 @@
             <section id="section1">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
-                    <span id="search">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input type="text" placeholder="Marseille, France">
-                        <button>
-                            <span>Rechercher</span>
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </span>
-
-                    <!-- Filtres -->
-
-                    <div id="filters">
-                        <div id="title_filtres_block">
-                            <h2>Filtres</h2>
+                    <form method="post" action="#">
+                        <span id="search">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" placeholder="Marseille, France">
+                            <button>
+                                <span>Rechercher</span>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </span>
+                        <!-- Filtres -->
+                        <div id="filters">
+                            <div id="title_filtres_block">
+                                <h2>Filtres</h2>
+                            </div>
+                            <div id="list_block">
+                                <ul id="filters_lists">
+                                    <li>
+                                        <button>
+                                        <span class="icon_design"><i class="fas fa-money-bill-wave"></i></span>
+                                        <span class="filter_text">Économique</span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button>
+                                        <span class="icon_design"><i class="fas fa-child"></i></span>
+                                        <span class="filter_text">Familial</span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button>
+                                        <span class="icon_design"><i class="fas fa-heart"></i></span>
+                                        <span class="filter_text">Romantique</span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button>
+                                        <span class="icon_design"><i class="fas fa-dog"></i></span>
+                                        <span class="filter_text">Animaux autorisés</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div id="list_block">
-                            <ul id="filters_lists">
-                                <li>
-                                    <button>
-                                    <span class="icon_design"><i class="fas fa-money-bill-wave"></i></span>
-                                    <span class="filter_text">Économique</span>
-                                    </button>
-                                </li>
-
-                                <li>
-                                    <button>
-                                    <span class="icon_design"><i class="fas fa-child"></i></span>
-                                    <span class="filter_text">Familial</span>
-                                    </button>
-                                </li>
-
-                                <li>
-                                    <button>
-                                    <span class="icon_design"><i class="fas fa-heart"></i></span>
-                                    <span class="filter_text">Romantique</span>
-                                    </button>
-                                </li>
-
-                                <li>
-                                    <button>
-                                    <span class="icon_design"><i class="fas fa-dog"></i></span>
-                                    <span class="filter_text">Animaux autorisés</span>
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    </form>
 
             <!-- Information -->
 
                     <div id="information">
                         <span id="icon_info"><i class="fas fa-info"></i></span>
-                        <p><span id="info_text">Plus de 500 logements sont disponibles dans cette ville</span></p>
+                        <p id="info_text">Plus de 500 logements sont disponibles dans cette ville</p>
                     </div>
             </section>
 
@@ -212,7 +209,7 @@
                                 <h2 class="h2_hébergements_populaires">Les plus populaires</h2>
                             </div>
                             <div id="icon_block">
-                                <span id="icon_populaires"><i class="fas fa-chart-line"></i></span>
+                                <i class="fas fa-chart-line"></i>
                             </div>
                         </div>
                     <div id="populaires_card_block">

@@ -43,13 +43,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 90px;
+    height: 110px;
 }
 
     /* Logo */
 
 #logo {
-    margin-left: 10px;
     height: 60px;
     width: 110px;
 }
@@ -103,24 +102,27 @@ nav {
     /* Main title */
 
 #section1 {
-    min-height: 260px;
+    height: auto;
 }
 
 #section1 p {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0;
 }
 
 #section1 h1 {
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bolder;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
+    margin-top: 10px;
 }
 
     /* Search bar */
 
 #search {
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 #search > i {
@@ -233,7 +235,6 @@ nav {
 
 #icon_info {
     font-size: 10px;
-    margin-left: 5px;
 }
 
 #information p {
@@ -244,6 +245,8 @@ nav {
 
 #info_text {
      margin-left: 5px;
+     position: relative;
+     top: 1px;
 }
 
 .fas.fa-info {
@@ -263,13 +266,11 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid teal;
     margin-bottom: 15px;
 }
     /* Hébergements à Marseille */
 
 #hebergements_results {
-    border: 1px solid green;
     background-color: #F2F2F2;
     border-radius: 20px;
     flex-basis: calc(70% - 40px)
@@ -291,7 +292,6 @@ nav {
     font-size: 19px;
     margin-top: 25px;
     margin-left: 2.7%;
-    border: 1px solid;
     font-weight: 700;
 }
 
@@ -367,14 +367,12 @@ nav {
     font-size: 19px;
     margin-top: 25px;
     margin-left: 7%;
-    border: 1px solid;
 }
 
 #populaires_results {
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
-    border: 1px solid coral;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -414,12 +412,8 @@ nav {
 
 #icon_block {
     position: absolute;
-    right: 20px;
-    top: 29px;
-}
-
-#icon_populaires {
-    border: 1px solid red;
+    right: 30px;
+    top: 28.5px;
 }
 
 .populaires_img_card {
@@ -442,7 +436,7 @@ nav {
 }
 
 .populaires_h3 {
-    margin: 5%;
+    margin: 7% 5%;
     font-size: 15px;
     font-weight: bold;
 }
