@@ -263,7 +263,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    min-height: 520px;
     border: 1px solid teal;
     margin-bottom: 15px;
 }
@@ -283,23 +282,24 @@ nav {
 }
 
 #afficher_plus_block p {
-    margin: 10px 40px;
-    font-weight: bolder;
-    font-size: 15px;
+    margin: 10px 2.7%;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .h2_hébergements_à_marseille {
-    font-size: 20px;
-    margin: 25px 0 25px 28px;
+    font-size: 19px;
+    margin-top: 25px;
+    margin-left: 2.7%;
     border: 1px solid;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .hebergements_description {
     background-color: white;
     border-radius: 20px;
-    width: 250px;
-    height: 200px;
+    width: 30%;
+    height: 210px;
     margin-bottom: 2%;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
     cursor: pointer;
@@ -317,14 +317,23 @@ nav {
     border-radius: 20px 20px 0 0;
 }
 
+.hébergements_card_content {
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
 .hébergements_h3 {
-    margin: 0 13px 5px 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
     font-size: 15px;
     font-weight: bold;
 }
 
 .hébergements_p {
-    margin: 5px 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
     font-size: 14px;
 }
 
@@ -332,8 +341,10 @@ nav {
     font-weight: bold;
 }
 
-.stars_results {
-    margin: 5px 13px 0px 10px;
+.hébergements_stars {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 0;
     font-size: 12px;
 }
 
@@ -353,8 +364,9 @@ nav {
     /* Hébergements populaires */
 
 .h2_hébergements_populaires {
-    font-size: 18px;
-    margin: 25px 0 25px 11px;
+    font-size: 19px;
+    margin-top: 25px;
+    margin-left: 7%;
     border: 1px solid;
 }
 
@@ -379,8 +391,8 @@ nav {
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
     width: 100%;
-    margin-bottom: 8%;
-    height: 100%;
+    height: 150px;
+    margin-bottom: 5%;
     cursor: pointer;
 }
 
@@ -392,21 +404,22 @@ nav {
 #icon_title_block {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 #title_block {
     align-self: flex-start;
+    flex-grow: 1;
 }
 
 #icon_block {
-    margin: 30px 10px 25px 0;
-    height: 22px;
+    position: absolute;
+    right: 20px;
+    top: 29px;
 }
 
 #icon_populaires {
     border: 1px solid red;
-    position: relative;
-    bottom: 2px;
 }
 
 .populaires_img_card {
@@ -424,20 +437,25 @@ nav {
 .description_column {
     display: flex;
     flex-direction: column;
-    border: 1px solid skyblue;
     width: 60%;
-    height: 100%;
+    height: 90%;
 }
 
 .populaires_h3 {
-    margin: 15px 13px 10px 10px;
+    margin: 5%;
     font-size: 15px;
     font-weight: bold;
 }
 
 .populaires_p {
-    margin: 0 0 45px 10px;
+    margin: 0 5%;
     font-size: 14px;
+}
+
+.populaires_stars {
+    margin-left: 5%;
+    margin-top: auto;
+    font-size: 12px;
 }
 
 /* Section 3 - Activités à Marseille */
