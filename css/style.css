@@ -480,7 +480,7 @@ nav {
 
 #vieux_port {
     order: 0;
-    width: calc(25% - 30px);
+    width: calc(25% - 40px);
     height: 100%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
@@ -499,7 +499,7 @@ nav {
 
 #pomègues {
     order: 1;
-    width: calc(25% - 30px);
+    width: calc(25% - 20px);
     height: calc(60% - 30px);
     margin-bottom: 30px;
     border-radius: 20px;
@@ -519,7 +519,7 @@ nav {
 
 #frioul {
     order: 2;
-    width: calc(25% - 30px);
+    width: calc(25% - 20px);
     height: 40%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
@@ -538,7 +538,7 @@ nav {
 
 #calanques {
     order: 3;
-    width: calc(25% - 30px);
+    width: calc(25% - 40px);
     height: 100%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
@@ -557,7 +557,7 @@ nav {
 
 #garde {
     order: 4;
-    width: calc(25% - 30px);
+    width: calc(25% - 20px);
     height: 40%;
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
@@ -577,7 +577,7 @@ nav {
 
 #longchamp {
     order: 5;
-    width: calc(25% - 30px);
+    width: calc(25% - 20px);
     height: calc(60% - 30px);
     border-radius: 20px;
     box-shadow: 4px 4px 6px rgb(224, 224, 224);
