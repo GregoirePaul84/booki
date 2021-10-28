@@ -1,0 +1,88 @@
+/* Responsive - Tablettes */
+
+@media screen and (max-width: 992px) {
+
+    /* Section 1 - Filters */
+
+    #filters li {
+        margin: 5px 0;
+    }
+
+    /* Section 2 - Hébergements ville - Populaires */
+
+    #section2 {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    #populaires_results {
+        margin-bottom: 40px;
+    }
+
+    /* Section 3 - Activités */
+
+    #activités_marseille_container {
+        height: 440px;
+    }
+
+    #vieux_port {
+        height: 210px;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    #img_vieux_port {
+        height: 170px;
+    }
+
+    #pomègues {
+        height: 210px;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    #img_pomègues {
+        height: 170px;
+    }
+
+    #frioul {
+        height: 210px;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    #img_frioul {
+        height: 170px;
+    }
+
+    #calanques {
+        height: 210px;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    #img_calanques {
+        height: 170px;
+    }
+
+    #garde {
+        height: 210px;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    #img_garde {
+        height: 170px;
+    }
+
+    #longchamp {
+        height: 210px;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    #img_longchamp {
+        height: 170px;
+    }
+
+}
