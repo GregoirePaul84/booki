@@ -11,7 +11,7 @@ img {
 
 @font-face {
     font-family: 'Raleway';
-    src: url('../Fonts/Raleway-VariableFont_wght.ttf');        
+    src: url('../Fonts/static/Raleway-Regular.ttf');   
 }
 
 #page_block {
@@ -111,7 +111,7 @@ nav {
 
 #section1 h1 {
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 900;
     margin-bottom: 14px;
     margin-top: 10px;
 }

@@ -8,7 +8,7 @@
         margin: 5px 0;
     }
 
-    /* Section 2 - Hébergements ville - Populaires */
+    /* Section 2 - Hébergements à Marseille - Hébergements Populaires */
 
     #section2 {
         flex-direction: column-reverse;
@@ -19,7 +19,7 @@
         margin-bottom: 40px;
     }
 
-    /* Section 3 - Activités */
+    /* Section 3 - Activités à Marseille */
 
     #activités_marseille_container {
         height: 440px;
@@ -32,7 +32,7 @@
     }
 
     #img_vieux_port {
-        height: 170px;
+        height: 160px;
     }
 
     #pomègues {
@@ -42,7 +42,7 @@
     }
 
     #img_pomègues {
-        height: 170px;
+        height: 160px;
     }
 
     #frioul {
@@ -52,7 +52,7 @@
     }
 
     #img_frioul {
-        height: 170px;
+        height: 160px;
     }
 
     #calanques {
@@ -62,7 +62,7 @@
     }
 
     #img_calanques {
-        height: 170px;
+        height: 160px;
     }
 
     #garde {
@@ -72,7 +72,7 @@
     }
 
     #img_garde {
-        height: 170px;
+        height: 160px;
     }
 
     #longchamp {
@@ -82,7 +82,7 @@
     }
 
     #img_longchamp {
-        height: 170px;
+        height: 160px;
     }
 
 }
