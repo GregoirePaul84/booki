@@ -5,6 +5,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     object-fit: cover;
 }
@@ -17,8 +21,8 @@ img {
 #page_block {
     display: flex;
     flex-direction: column;
-    width: auto;
-    margin: 0 80px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 body {

@@ -23,6 +23,11 @@
 
     #activités_marseille_container {
         height: 440px;
+        align-content: space-around;
+    }
+
+    .h2_activités_à_marseille {
+        margin-left: 3%;
     }
 
     #vieux_port {
