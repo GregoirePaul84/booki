@@ -50,9 +50,12 @@
     #section1 h1 {
         font-size: 22px;
         font-weight: bolder;
-        margin-bottom: 7px;
+        margin-bottom: 10px;
         text-align: center;
-        margin: 0 30px 12px 30px;
+    }
+
+    .section1_heading {
+        margin: 0 5%;
     }
 
     /* Responsive - Search bar */
@@ -61,13 +64,18 @@
         display: none;
     }
 
+    #search input {
+        width: 100%;
+    }
+
     .fas.fa-search {
         display: inherit;
         color: #FFFFFF 
     }
 
     #search {
-        margin-left: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 28px;
     }
 
@@ -93,6 +101,12 @@
 
     #filters_lists button {
         margin-bottom: 11px;
+    }
+
+    /* Responsive - Info */
+
+    #information {
+        margin-left: 5%;
     }
 
 /* Responsive - Section 2 - Hébergements à Marseille, Hébergements populaires */
