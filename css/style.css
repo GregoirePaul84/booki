@@ -24,6 +24,9 @@ img {
 
 body {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -614,6 +617,7 @@ footer {
     justify-content: space-around;
     background-color: #F2F2F2;
     height: 175px;
+    width: 100%;
 }
 
 .footer_columns {
